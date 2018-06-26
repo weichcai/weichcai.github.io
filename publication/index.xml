@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Weicheng Cai</title>
-    <link>weichcai.com/publication/</link>
+    <link>https://weichcai.com/publication/</link>
     <description>Recent content in Publications on Weicheng Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="weichcai.com/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://weichcai.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analysis of Length Normalization in End-to-End Speaker Verification System</title>
-      <link>weichcai.com/publication/interspeech2018/</link>
+      <link>https://weichcai.com/publication/interspeech2018/</link>
       <pubDate>Fri, 08 Jun 2018 17:39:51 +0800</pubDate>
       
-      <guid>weichcai.com/publication/interspeech2018/</guid>
+      <guid>https://weichcai.com/publication/interspeech2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System </title>
-      <link>weichcai.com/publication/odyssey2018/</link>
+      <link>https://weichcai.com/publication/odyssey2018/</link>
       <pubDate>Tue, 10 Apr 2018 17:39:51 +0800</pubDate>
       
-      <guid>weichcai.com/publication/odyssey2018/</guid>
+      <guid>https://weichcai.com/publication/odyssey2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Novel Learnable Dictionary Encoding Layer for End-to-End Language Identification</title>
-      <link>weichcai.com/publication/icassp2018_lde/</link>
+      <link>https://weichcai.com/publication/icassp2018_lde/</link>
       <pubDate>Tue, 10 Apr 2018 15:49:43 +0800</pubDate>
       
-      <guid>weichcai.com/publication/icassp2018_lde/</guid>
+      <guid>https://weichcai.com/publication/icassp2018_lde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Insights into End-to-End Learning Scheme for Language Identification</title>
-      <link>weichcai.com/publication/icassp2018_e2e/</link>
+      <link>https://weichcai.com/publication/icassp2018_e2e/</link>
       <pubDate>Tue, 10 Apr 2018 15:49:43 +0800</pubDate>
       
-      <guid>weichcai.com/publication/icassp2018_e2e/</guid>
+      <guid>https://weichcai.com/publication/icassp2018_e2e/</guid>
       <description></description>
     </item>
     
