@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Weicheng Cai</title>
-    <link>https://weichcai.github.io/bak/</link>
+    <link>weichcai.com/bak/</link>
     <description>Recent content in Posts on Weicheng Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://weichcai.github.io/bak/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="weichcai.com/bak/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>01-Markdown Test</title>
-      <link>https://weichcai.github.io/bak/01-markdown_test/</link>
+      <link>weichcai.com/bak/01-markdown_test/</link>
       <pubDate>Thu, 10 May 2018 14:04:26 +0800</pubDate>
       
-      <guid>https://weichcai.github.io/bak/01-markdown_test/</guid>
+      <guid>weichcai.com/bak/01-markdown_test/</guid>
       <description>Math formula Code block Table Image Hyperlink  Test01: Math formula  Inline formula This is an inline formula $\alpha+\beta=\gamma$
  Single line formula
   $$\alpha+\beta=\gamma$$
