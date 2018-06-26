@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Weicheng Cai</title>
+    <link>https://weichcai.github.io/bak/</link>
+    <description>Recent content in Posts on Weicheng Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://weichcai.github.io/bak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>01-Markdown Test</title>
+      <link>https://weichcai.github.io/bak/01-markdown_test/</link>
+      <pubDate>Thu, 10 May 2018 14:04:26 +0800</pubDate>
+      
+      <guid>https://weichcai.github.io/bak/01-markdown_test/</guid>
+      <description>Math formula Code block Table Image Hyperlink  Test01: Math formula  Inline formula This is an inline formula $\alpha+\beta=\gamma$
+ Single line formula
+  $$\alpha+\beta=\gamma$$
+ Fomula with both  When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+Test02: Code block  Python code example  @requires_authorization def somefunc(param1=&#39;&#39;, param2=0): &#39;&#39;&#39;A docstring&#39;&#39;&#39; if param1 &amp;gt; param2: # interesting print &#39;Greater&#39; return (param2 - param1 + 1) or None class SomeClass: pass   C++ code example  #include &amp;quot;base/kaldi-common.</description>
+    </item>
+    
+  </channel>
+</rss>
