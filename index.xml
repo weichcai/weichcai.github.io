@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weicheng Cai on Weicheng Cai</title>
+    <link>https://weichcai.github.io/</link>
+    <description>Recent content in Weicheng Cai on Weicheng Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Analysis of Length Normalization in End-to-End Speaker Verification System</title>
+      <link>https://weichcai.github.io/publication/interspeech2018/</link>
+      <pubDate>Fri, 08 Jun 2018 17:39:51 +0800</pubDate>
+      
+      <guid>https://weichcai.github.io/publication/interspeech2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>01-Markdown Test</title>
+      <link>https://weichcai.github.io/post/01-markdown_test/</link>
+      <pubDate>Thu, 10 May 2018 14:04:26 +0800</pubDate>
+      
+      <guid>https://weichcai.github.io/post/01-markdown_test/</guid>
+      <description>
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Math formula&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Code block&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Table&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Image&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Hyperlink&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;test01-math-formula&#34;&gt;Test01: Math formula&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Inline formula
+This is an inline formula $\alpha+\beta=\gamma$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Single line formula&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$\alpha+\beta=\gamma$$&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fomula with both&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$&lt;/p&gt;
+
+&lt;h2 id=&#34;test02-code-block&#34;&gt;Test02: Code block&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Python code example&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;@requires_authorization
+def somefunc(param1=&#39;&#39;, param2=0):
+    &#39;&#39;&#39;A docstring&#39;&#39;&#39;
+    if param1 &amp;gt; param2: # interesting
+        print &#39;Greater&#39;
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C++ code example&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include &amp;quot;base/kaldi-common.h&amp;quot;
+#include &amp;quot;util/common-utils.h&amp;quot;
+#include &amp;quot;gmm/am-diag-gmm.h&amp;quot;
+#include &amp;quot;hmm/transition-model.h&amp;quot;
+
+int main(int argc, char *argv[]) {
+  try {
+    using namespace kaldi;
+    typedef kaldi::int32 int32;
+
+    const char *usage =
+        &amp;quot;Copy GMM based model (and possibly change binary/text format)\n&amp;quot;
+        &amp;quot;Usage:  gmm-copy [options] &amp;lt;model-in&amp;gt; &amp;lt;model-out&amp;gt;\n&amp;quot;
+        &amp;quot;e.g.:\n&amp;quot;
+        &amp;quot; gmm-copy --binary=false 1.mdl 1_txt.mdl\n&amp;quot;;
+
+
+    bool binary_write = true,
+        copy_am = true,
+        copy_tm = true;
+    
+    ParseOptions po(usage);
+ 
+    po.Read(argc, argv);
+
+    std::string model_in_filename = po.GetArg(1),
+        model_out_filename = po.GetArg(2);
+
+    AmDiagGmm am_gmm;
+    TransitionModel trans_model;
+
+    return -1;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;test03-table&#34;&gt;Test03: Table&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two simple tables below&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;name&lt;/th&gt;
+&lt;th&gt;age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;LearnShare&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Mike&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Option&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;data&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;engine&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ext&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;extension to be used for dest files.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;test04-image&#34;&gt;Test04: Image&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A dog will appear in your field of vision&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://7xq65y.com1.z0.glb.clouddn.com/16-8-5/11040326.jpg?imageView2/1/w/400/h/500/q/500&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;test05-hyperlink&#34;&gt;Test05: Hyperlink&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;This is a hyperlink to my github homepage&lt;/strong&gt; &lt;a href=&#34;https://github.com/weichcai&#34; target=&#34;_blank&#34;&gt;Github Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System </title>
+      <link>https://weichcai.github.io/publication/odyssey2018/</link>
+      <pubDate>Tue, 10 Apr 2018 17:39:51 +0800</pubDate>
+      
+      <guid>https://weichcai.github.io/publication/odyssey2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Novel Learnable Dictionary Encoding Layer for End-to-End Language Identification</title>
+      <link>https://weichcai.github.io/publication/icassp2018_lde/</link>
+      <pubDate>Tue, 10 Apr 2018 15:49:43 +0800</pubDate>
+      
+      <guid>https://weichcai.github.io/publication/icassp2018_lde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insights into End-to-End Learning Scheme for Language Identification</title>
+      <link>https://weichcai.github.io/publication/icassp2018_e2e/</link>
+      <pubDate>Tue, 10 Apr 2018 15:49:43 +0800</pubDate>
+      
+      <guid>https://weichcai.github.io/publication/icassp2018_e2e/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
