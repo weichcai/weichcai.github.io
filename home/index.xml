@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Weicheng Cai</title>
+    <link>https://weichcai.com/home/</link>
+    <description>Recent content in Homes on Weicheng Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://weichcai.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://weichcai.com/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weichcai.com/home/about/</guid>
+      <description>Biography I am a second-year Ph.D. candidate in School of Electronics and Information Technology, Sun Yat-sen University, advised by Ming Li (Prof. Li just transfered to Duke Kunshan University from Sun Yat-sen University recently).
+My research interest mainly focuses on automatic speaker and language recognition, particularly towards deep learning based end-to-end approach. Since 2014, I have been studying in the area of speech processing in the lab of Speech and Multimodal Intelligent Information Processing (SMIIP) directed by Prof.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://weichcai.com/home/news/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://weichcai.com/home/news/</guid>
+      <description>[Mar. 30, 2018] My first-author paper have been accepted by Speaker Odyssey 2018. This is a great honor for me as a speaker and language recognition researcher. [Mar. 23, 2018] Two of my paper have been submitted to Interspeech 2018. There are altogether six paper submitted from our labratory (SMIIP). [Jan. 30, 2018] I’m very happy to share that my two first-author paper got accepted by ICASSP 2018, the top international conference in the area of audio and speech processing.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://weichcai.com/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://weichcai.com/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://weichcai.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://weichcai.com/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
